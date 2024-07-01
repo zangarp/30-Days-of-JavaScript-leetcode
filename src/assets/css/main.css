@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #008b8a;
+  --font-family: Ubuntu, sans-serif;
+  --composite-mandarin: #f05e22;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("@/assets/fonts/ubuntu/Ubuntu-Regular.ttf");
+}
+
+.times-new-roman,
+.times-new-roman * {
+  font-family: "Times New Roman", serif;
+}
+
+.p-password {
+  display: block;
+}
+
+.p-input-icon {
+  cursor: pointer;
+}
+
+.m-top-menu-icon {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 22px;
+  height: 35px;
+  width: 35px;
+  padding: 6px;
+  border-radius: 35px;
+}
+
+.custom-button {
+  width: 100%;
+  height: 36px;
+  background-color: #f05e22;
+  border: 0;
+  transition: all 0.1s;
+  margin-left: 4px;
+  margin-top: 16px;
+}
+
+.m-top-menu-icon:hover {
+  background-color: #f1f5f9;
+}
+
+.m-empty-data-icon {
+  color: rgba(var(--primary-color), 0.6);
+  font-size: 24px;
+}
+
+#printSection table,
+#printSection tr,
+#printSection td {
+  border: 1px solid #000000;
+  padding: 0 5px;
+}
+
+#printSection tbody tr td:first-child {
+  text-align: center;
+}
