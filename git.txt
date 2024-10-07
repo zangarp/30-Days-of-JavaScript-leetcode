@@ -1,0 +1,13 @@
+git stash
+git checkout dev
+git pull
+git checkout zangar
+git merge dev
+git stash apply
+
+commit and push
+
+
+git add .
+git commit -m "text"
+git push 
